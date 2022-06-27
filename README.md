@@ -4,33 +4,33 @@ This dataset is used for virtual Bass neural network training, which is generate
 # Citation
 H.W. Chang and M. R. Bai, "Virtual Bass Synthesis via Deep Learning," J. Audio Eng. Soc.,(2022).
 
-'''
-This Virtual Bass Dataset is Optimal Parametered Hybird VBS
-Author: Hong Wei Chang, National Tsing Hua University
-Date: 2022.06.15
-Lab: Telecom-Electroacoustics-Audio (TEA) Laboratory 
-Professor: Mingsian R. Bai
+'''  
+This Virtual Bass Dataset is Optimal Parametered Hybird VBS  
+Author: Hong Wei Chang, National Tsing Hua University  
+Date: 2022.06.15  
+Lab: Telecom-Electroacoustics-Audio (TEA) Laboratory  
+Professor: Mingsian R. Bai  
 '''
 
 # Data Description
-Available at: https://reurl.cc/vd2kko
+Available at: https://reurl.cc/vd2kko  
 three main portions are contained in this VB dataset. One of portions includes four audio files “Oracle”, “Raw_HPF”, “Rec” and “Rec_HPF”, where “Oracle” is the unprocessed audio file; “Raw_HPF” is filtered from “ Another portion has F0 photos and information. And the rest are parameters of hybrid approach VBS for each song.
 
 # Data Format
-(1) VB_dataset_para.xlsx
+(1) VB_dataset_para.xlsx  
 This Excel file contains two subpages: "config" and "f0". "config" is the hybrid method VBS parameter. The red table means bass perception is bad; while the green one means bass perception is good. In addition, "f0" is the fundamental frequency of each audio file.
 
-(1) VB_dataset_para.xlsx
+(1) VB_dataset_para.xlsx  
 The listening test results of this paper.
 
-(2)f0 (folder)
+(2)f0 (folder)  
 It contains the fundamental frequency of each audio file.
 
-(3)audio (folder)
+(3)audio (folder)  
 It includes four audio files for each audio file (10 genres), “Oracle”, “Raw_HPF”, "Rec" and “Rec_HPF”: “Oracle” is the unprocessed audio file; “Raw_HPF” is filtered from “Oracle” by a 120 Hz HPF; “Rec” is gotten from "Oracle" after VB algorithm; and “Rec_HPF” is filtered from “Rec” by a 120 Hz HPF.
 
-(4)pic (folder)
+(4)pic (folder)  
 It contain the pitch estimation results (F0 photos) for each audio file.
 
-(5)NPZ_TrainingData (folder)
+(5)NPZ_TrainingData (folder)  
 Training data for this paper
